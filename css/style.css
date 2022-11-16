@@ -951,7 +951,16 @@ footer.copyright a{
    
 }
 
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
 
+.show{
+    transform: translateX(0);
+    opacity: 1;
+}
 
 
 
